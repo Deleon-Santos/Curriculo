@@ -1,0 +1,293 @@
+@charset "utf8";
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --cor1:#030303bd;
+    --cor2:#09090990;
+    --cor3:#ffffffb2;
+    --cor4:rgba(255, 0, 0, 0.699);
+    --cor5:rgba(0, 128, 0, 0.867);
+    --cor6:black;
+    --font-destaque:"Protest Revolution",Arial,sans-serif;
+    --font-padrao:Arial, Helvetica, sans-serif;
+}
+body {
+    font-family: var(--font-padrao);
+    max-width: 1024;
+    background-color: var(--cor6);
+    margin: auto;
+}
+header {
+    background-color: var(--cor1);
+    color: var(--cor3);
+    text-align: center;
+    padding: 20px;
+}
+
+
+header h1{
+    font-family: var(--font-destaque);
+    color: var(--cor5);
+    font-weight: bolder;
+    font-size: 5rem;
+    text-shadow: 2px 2px 2px;
+    
+}
+ #v{
+    color: var(--cor5);
+    font-size: 5rem;
+}
+
+strong {
+
+    color: var(--cor4);
+}
+header h1:hover{
+    text-shadow: 5px 5px 10px;
+
+}
+nav {
+    
+    color:var(--cor3);
+    text-align: center;
+    padding: 10px;
+}
+nav a {
+    color: var(--cor3);
+    margin: 0 15px;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+nav a:hover{
+    
+    
+    box-shadow: 1px 2px var(--cor5);
+}
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+main{
+    background-color:var(--cor1);
+    max-width: 800px;
+    min-width: 540px;
+    margin:  auto;
+    padding:10px 10px 10px 10px;
+    color: var(--cor6);
+    
+}
+
+section {
+    display: block;
+    max-width: 760px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color:var(--cor3);
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(114, 114, 114, 0.318);
+    
+    
+}
+#titular{
+    line-height: 6rem;
+    text-align: center;
+    font-size: 1.5rem
+}
+section h2{
+    text-shadow: 1px 1px 2px var(--cor3);
+    font-weight: bold;
+    letter-spacing: .2rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: -10px;
+    margin-bottom: 20px;
+    line-height: 6rem;
+    padding-left: 20px;
+    background-image: linear-gradient(to right, var(--cor2), transparent);
+}
+section h3{
+    line-height: 6rem;
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
+section p{
+    text-indent: 30px;
+    font-weight: 500;
+    letter-spacing: .1rem;
+    text-align: justify;
+    padding: 10px;
+    padding-right: 30px;
+    
+
+}
+#bloco1{
+    columns: 2;
+    display: flex;
+}
+
+#bloco1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 2px 2px 2px var(--cor1);
+}
+#bloco2{
+    columns: 2;
+    display: flex;
+    
+}
+#bloco2 img{
+    width: 200px;
+    margin: 20px;
+    border-radius: 20px;
+    display: flex;
+    width: 200px;
+    box-shadow: 2px 2px 2px var(--cor1);
+}
+#skils{
+    display: flex;
+    letter-spacing: 50px;
+    font-size: 7rem;
+    width: 540px;
+    margin: auto;
+    
+    
+}
+
+#projetos img{
+    display: flex;
+    margin:auto;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    box-shadow: 1px 2px 5px var(--cor2);
+    
+    
+    
+    
+}
+#projetos img:hover{
+    box-shadow: 1px 2px 10px var(--cor5); 
+    border-radius: 20px;
+    border-color: var(--cor4);
+}
+
+#projetos p{
+    
+   
+    padding-top: 10px;
+}
+
+
+
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+form {
+    background-color: #ffffff99;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+
+
+
+
+
+
+#topo{
+    background-color: var(--cor4);
+    position: fixed;
+    right: 370px;
+    bottom: 30px;
+    font-size: 1.5rem;
+    color: var(--cor3);
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+footer {
+    background-color:var(--cor1);
+    text-align: center;
+   
+    height: 80px;
+    width: 100%;
+    
+}
+
+
+
+
+
+.social  {
+    color:antiquewhite;
+    text-decoration: none;
+    display: inline;
+    margin: auto;
+}
+footer a{
+    margin-right: auto;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+footer i{
+    font-size: 1.5rem;
+}
+footer p{
+    margin: auto;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: .6rem;
+    color:var(--cor3);
+    padding-left: 20px;
+}   
+    
+    
+
+@media only screen and (max-width:540px) {
+    header{
+        width: 50%
+    }; }  
+    
