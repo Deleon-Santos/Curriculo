@@ -3,8 +3,7 @@
 
 *{
     margin: 0px;
-    padding: 0px;
-    
+    padding: 0px;   
 }
 html{
     scroll-behavior: smooth;
@@ -35,23 +34,23 @@ header {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    max-width: 540px;
+    
     margin: auto;
+    
 }
 header h1{
     font-family: var(--font-destaque);
     color: var(--cor5);
     font-weight: bolder;
     font-size: 5rem;
-    text-shadow: 2px 2px 2px;
-    
+    text-shadow: 2px 2px 2px; 
+    align-items: center;
 }
  #v{
     color: var(--cor5);
     font-size: 5rem;
 }
 strong {
-
     color: var(--cor4);
 }
 header h1:hover{
@@ -61,12 +60,17 @@ nav {
     color:var(--cor3);
     text-align: center;
     padding: 10px;
+    
+    
+   
 }
 nav a {
     color: var(--cor3);
-    margin: 0 15px;
+    margin: 0 30px;
     text-decoration: none;
-    cursor: pointer;   
+    cursor: pointer;
+    
+   
 }
 nav a:hover{  
     box-shadow: 1px 2px var(--cor5);
@@ -92,7 +96,6 @@ section {
     line-height: 6rem;
     text-align: center;
     font-size: 1.5rem
-    
 }
 section h2{
     text-shadow: 1px 1px 2px var(--cor3);
@@ -119,20 +122,17 @@ section p{
     padding: 10px;
     padding-right: 30px;  
 }
-
 #bloco1{
     columns: 2;
     display: flex;
-    align-items: center;
-    
+    align-items: center; 
 }
 #bloco1 img{
     width: 200px;
     height: 200px;
     border-radius: 50%;
     margin: 20px;
-    box-shadow: 2px 2px 2px var(--cor1);
-    
+    box-shadow: 2px 2px 2px var(--cor1);  
 }
 #bloco2{
     columns: 2;
@@ -144,8 +144,7 @@ section p{
     margin: auto;
     border-radius: 20px;
     display: flex;
-    text-align: center;
-    
+    text-align: center; 
     padding: 20px;
 }
 #skils{
@@ -160,8 +159,7 @@ section p{
     display: flex;
     margin: auto;
     padding: 5px;
-    border-radius: 50%
-    
+    border-radius: 50%  
 }
 .projetos  img:hover{
     box-shadow: 1px 2px 5px var(--cor5);
@@ -228,9 +226,11 @@ footer a{
     font-style: italic;
     font-weight: 500;
     font-size: 1.5rem;
+    
 }
 footer i{
     font-size: 1.5rem;
+    margin-left: 5px;
 }
 footer p{
     margin: auto;
@@ -241,8 +241,6 @@ footer p{
     padding-left: 20px;
 }   
     
-    
-
 @media only screen and (max-width:600px) {
     body{
         width: 100%;
@@ -255,7 +253,6 @@ footer p{
         margin: 1px;
         padding: 10px;
     }
-    
     #bloco1{
         margin: auto;
         display: contents; 
@@ -265,10 +262,6 @@ footer p{
         margin: auto;
         display: contents;
         text-align: center;
-    }
-    
-        
-       
     }
     #projetos img{
         width: 90%;
