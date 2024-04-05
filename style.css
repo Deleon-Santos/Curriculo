@@ -41,14 +41,17 @@ header {
     color: var(--cor3);
     text-align: center;
     padding-top: 20px;
-    padding-bottom: 20px;
-    margin: auto;    
+    padding-bottom: 0px;
+    margin: auto;   
+}
+#burguer{
+    display:none;
 }
 header h1{
     font-family: var(--font-destaque);
     color: var(--cor5);
     font-weight: bolder;
-    font-size: 5rem;
+    font-size: 6rem;
     text-shadow: 2px 2px 2px; 
     align-items: center;
 }
@@ -88,9 +91,10 @@ section {
     display: block;
     margin: 20px auto;
     padding: 10px;
-    background-color:var(--cor3);
+    background-color:rgba(36, 35, 35, 0.512);
     border-radius: 20px;
-    box-shadow: 2px 2px 5px rgba(114, 114, 114, 0.318);      
+    box-shadow: 2px 2px 5px rgba(114, 114, 114, 0.318);  
+    color: antiquewhite;    
 }
 #titular{
     line-height: 6rem;
@@ -154,6 +158,14 @@ section p{
     text-align: center;
     margin: auto;         
 }
+#l_skils{
+    list-style-position: inside;
+    columns: 2;
+    list-style-type: "\2713\00A0\00A0";
+    padding-left: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
 .projetos img{
     width: 200px;
     display: flex;
@@ -172,7 +184,7 @@ section p{
 /*configuração do formulario*/
 
 form {
-    background-color: #ffffff99;
+    background-color:var(--cor2);
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -191,11 +203,11 @@ input, textarea {
 }
 input[type="submit"] {
     background-color: #4caf50;
-    color: #fff;
+    color: #f7f4f4ff;
     cursor: pointer;
 }
 input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #319536;
 }
 #topo{
     background-color: rgba(255, 0, 0, 0.44);
@@ -248,8 +260,39 @@ footer p{
     body{
         width: 100%;
     }
+    #opcoes{
+        display: none;
+    }
+    #opcoes{
+        display: flexbox;
+        align-items: flex-start;
+        text-align: center;
+    }
+    #opcoes a{
+        text-align: left;
+        display: block;
+        padding-left: -10px;
+    }
+    #burguer{
+        display:block;
+        background-color: var(--cor1);
+        color: var(--cor3);
+        text-align: left;
+        padding-left: 20px;
+        padding-top: 10px;
+        font-size: 1.5rem;
+    }
+    #burguer:hover{
+        color: antiquewhite;
+        text-shadow:1px 1px 4px white;
+        cursor: pointer;
+    }
+
+    
+
     header h1{
-        font-size: 300%;
+        font-size: 5rem;
+        
     }
     nav a{
         font-size: .8rem;
@@ -269,6 +312,15 @@ footer p{
     #projetos img{
         width: 90%;
     }
+    #l_skils{
+        list-style-position: inside;
+        columns: 1;
+    
+    }
+    #burguer:hover{
+        color: antiquewhite;
+        text-shadow:1px 1px 4px white;
+        cursor: pointer;
     
 }
  
